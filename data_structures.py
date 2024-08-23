@@ -21,7 +21,7 @@ class Stack:
 
     def push(self,data):
         """ Add new node with data to stack """
-        pass
+        return True
 
     def peek(self):
         """ Return data from node on top of stack, without changing stack """
@@ -29,7 +29,7 @@ class Stack:
 
     def pop(self):
         """ Remove last added node and return its data """
-        pass
+        return "Heia"
 
 
 class Queue:
